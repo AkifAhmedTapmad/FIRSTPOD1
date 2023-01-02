@@ -11,6 +11,10 @@
 		52A8CBCE2962B2920022F8EE /* FIRSTPOD1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52A8CBC32962B2920022F8EE /* FIRSTPOD1.framework */; };
 		52A8CBD32962B2920022F8EE /* FIRSTPOD1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A8CBD22962B2920022F8EE /* FIRSTPOD1Tests.swift */; };
 		52A8CBD42962B2920022F8EE /* FIRSTPOD1.h in Headers */ = {isa = PBXBuildFile; fileRef = 52A8CBC62962B2920022F8EE /* FIRSTPOD1.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52A8CBE42962B6330022F8EE /* FIRSTPOD1EXAMPLESApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A8CBE32962B6330022F8EE /* FIRSTPOD1EXAMPLESApp.swift */; };
+		52A8CBE62962B6330022F8EE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A8CBE52962B6330022F8EE /* ContentView.swift */; };
+		52A8CBE82962B6360022F8EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52A8CBE72962B6350022F8EE /* Assets.xcassets */; };
+		52A8CBEB2962B6360022F8EE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52A8CBEA2962B6360022F8EE /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +33,11 @@
 		52A8CBC72962B2920022F8EE /* FIRSTPOD1.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = FIRSTPOD1.docc; sourceTree = "<group>"; };
 		52A8CBCD2962B2920022F8EE /* FIRSTPOD1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FIRSTPOD1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52A8CBD22962B2920022F8EE /* FIRSTPOD1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FIRSTPOD1Tests.swift; sourceTree = "<group>"; };
+		52A8CBE12962B6330022F8EE /* FIRSTPOD1EXAMPLES.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FIRSTPOD1EXAMPLES.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52A8CBE32962B6330022F8EE /* FIRSTPOD1EXAMPLESApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FIRSTPOD1EXAMPLESApp.swift; sourceTree = "<group>"; };
+		52A8CBE52962B6330022F8EE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		52A8CBE72962B6350022F8EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52A8CBEA2962B6360022F8EE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +56,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		52A8CBDE2962B6330022F8EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -55,6 +71,7 @@
 			children = (
 				52A8CBC52962B2920022F8EE /* FIRSTPOD1 */,
 				52A8CBD12962B2920022F8EE /* FIRSTPOD1Tests */,
+				52A8CBE22962B6330022F8EE /* FIRSTPOD1EXAMPLES */,
 				52A8CBC42962B2920022F8EE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,6 +81,7 @@
 			children = (
 				52A8CBC32962B2920022F8EE /* FIRSTPOD1.framework */,
 				52A8CBCD2962B2920022F8EE /* FIRSTPOD1Tests.xctest */,
+				52A8CBE12962B6330022F8EE /* FIRSTPOD1EXAMPLES.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -83,6 +101,25 @@
 				52A8CBD22962B2920022F8EE /* FIRSTPOD1Tests.swift */,
 			);
 			path = FIRSTPOD1Tests;
+			sourceTree = "<group>";
+		};
+		52A8CBE22962B6330022F8EE /* FIRSTPOD1EXAMPLES */ = {
+			isa = PBXGroup;
+			children = (
+				52A8CBE32962B6330022F8EE /* FIRSTPOD1EXAMPLESApp.swift */,
+				52A8CBE52962B6330022F8EE /* ContentView.swift */,
+				52A8CBE72962B6350022F8EE /* Assets.xcassets */,
+				52A8CBE92962B6360022F8EE /* Preview Content */,
+			);
+			path = FIRSTPOD1EXAMPLES;
+			sourceTree = "<group>";
+		};
+		52A8CBE92962B6360022F8EE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				52A8CBEA2962B6360022F8EE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +172,23 @@
 			productReference = 52A8CBCD2962B2920022F8EE /* FIRSTPOD1Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		52A8CBE02962B6330022F8EE /* FIRSTPOD1EXAMPLES */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52A8CBEC2962B6360022F8EE /* Build configuration list for PBXNativeTarget "FIRSTPOD1EXAMPLES" */;
+			buildPhases = (
+				52A8CBDD2962B6330022F8EE /* Sources */,
+				52A8CBDE2962B6330022F8EE /* Frameworks */,
+				52A8CBDF2962B6330022F8EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FIRSTPOD1EXAMPLES;
+			productName = FIRSTPOD1EXAMPLES;
+			productReference = 52A8CBE12962B6330022F8EE /* FIRSTPOD1EXAMPLES.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -149,6 +203,9 @@
 						CreatedOnToolsVersion = 14.2;
 					};
 					52A8CBCC2962B2920022F8EE = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					52A8CBE02962B6330022F8EE = {
 						CreatedOnToolsVersion = 14.2;
 					};
 				};
@@ -168,6 +225,7 @@
 			targets = (
 				52A8CBC22962B2920022F8EE /* FIRSTPOD1 */,
 				52A8CBCC2962B2920022F8EE /* FIRSTPOD1Tests */,
+				52A8CBE02962B6330022F8EE /* FIRSTPOD1EXAMPLES */,
 			);
 		};
 /* End PBXProject section */
@@ -187,6 +245,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		52A8CBDF2962B6330022F8EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52A8CBEB2962B6360022F8EE /* Preview Assets.xcassets in Resources */,
+				52A8CBE82962B6360022F8EE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -203,6 +270,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				52A8CBD32962B2920022F8EE /* FIRSTPOD1Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52A8CBDD2962B6330022F8EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52A8CBE62962B6330022F8EE /* ContentView.swift in Sources */,
+				52A8CBE42962B6330022F8EE /* FIRSTPOD1EXAMPLESApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +501,64 @@
 			};
 			name = Release;
 		};
+		52A8CBED2962B6360022F8EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FIRSTPOD1EXAMPLES/Preview Content\"";
+				DEVELOPMENT_TEAM = SC7Q6V9V26;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tapmad.tapmadtv.FIRSTPOD1EXAMPLES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52A8CBEE2962B6360022F8EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FIRSTPOD1EXAMPLES/Preview Content\"";
+				DEVELOPMENT_TEAM = SC7Q6V9V26;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tapmad.tapmadtv.FIRSTPOD1EXAMPLES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -451,6 +585,15 @@
 			buildConfigurations = (
 				52A8CBDB2962B2920022F8EE /* Debug */,
 				52A8CBDC2962B2920022F8EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52A8CBEC2962B6360022F8EE /* Build configuration list for PBXNativeTarget "FIRSTPOD1EXAMPLES" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52A8CBED2962B6360022F8EE /* Debug */,
+				52A8CBEE2962B6360022F8EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
